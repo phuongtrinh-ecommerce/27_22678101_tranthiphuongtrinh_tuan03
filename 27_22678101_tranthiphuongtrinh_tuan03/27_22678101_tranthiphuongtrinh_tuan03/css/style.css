@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+wrapper {
+    width: 1089px;
+    height: 700px;
+    background-color: antiquewhite;
+    box-sizing: content-box;
+    border: 2px solid black;
+}
+
+header {
+    width: 1089px;
+    height: 150px;
+    background-color: aqua;
+    position: relative;
+}
+
+.top-menu {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 400px;
+    display: flex;
+    line-height: 50px;
+    list-style: none;
+}
+
+.top menu li:hover {
+    background-color: antiquewhite;
+}
+
+li:hover>a {
+    color: blueviolet;
+}
+
+li a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav {
+    width: 1089px;
+    height: 50px;
+    background-color: bisque;
+}
+
+.content {
+    width: 1089px;
+    height: 350px;
+    background-color: blanchedalmond;
+}
+
+footer {
+    width: 1089px;
+    height: 150px;
+    background-color: darkcyan;
+}
+
+section {
+    width: 70%;
+    height: 350px;
+    background-color: aquamarine;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    height: 350px;
+    background-color: chartreuse;
+    float: left;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    height: 50px;
+    width: 120px;
+    float: left;
+    line-height: 50px;
+    list-style: 50px;
+    background-color: violet;
+    text-indent: 20px;
+}
+
+.menu li:hover>a {
+    color: blue;
+}
+
+.menu li a {
+    color: greenyellow;
+}
